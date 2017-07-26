@@ -5,7 +5,6 @@
 import json
 import requests
 import urllib
-import codecs
 import pymysql
 
 class DOAJ:
