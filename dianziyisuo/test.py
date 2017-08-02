@@ -165,26 +165,21 @@ class DOAJ:
 
 if __name__ == '__main__':
     # 在此可以修改用户名、密码以及fileter参数
-    # base_url = 'http://121.42.164.187:8088/'
+    base_url = 'http://121.42.164.187:8088/'
     auth = ('xxjs', '123456a?')
     term_l1 = ['Science', 'Technology', 'Military Science']
     year = ['2017', '2016', '2015', '2014', '2013', '2012', '2011', '2010', '2009', '2008', '2007', '2006', '2005', '2004', '2003', '2002', '2001', '2000']
     
-    # count_sum = 0
-    # for term in term_l1:
-    #     for ayear in year:
-    #         new_filter = {'term_l1':term, 'year':ayear}
-    #         test1 = DOAJ(base_url, auth, new_filter)
-    #         tmp_count = int(test1.getCount())
-    #         count_sum += tmp_count
-    #         print(count_sum)
+    count_sum = 0
+    for term in term_l1:
+        for ayear in year:
+            new_filter = {'term_l1':term, 'year':ayear}
+            test1 = DOAJ(base_url, auth, new_filter)
+            tmp_count = int(test1.getCount())
+            count_sum += tmp_count
+            print(count_sum)
 
-    # print(count_sum)
+    print(count_sum)
 
-            # last_page = 123
-            # last_page_url = "http://121.42.164.187:8088/doaj/?page=%s&term_l1=%s&year=%s" % (last_page, new_filter['term_l1'], new_filter['year'])
-            # print(last_page_url)
 
-    last_page_url = "http://121.42.164.187:8088/doaj/?page=123&term_l1=Science&year=2017"
-    rsp = requests.get(last_page_url, auth =)
-    print(rsp)
+ 
