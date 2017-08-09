@@ -193,12 +193,15 @@ class CrawlThread(threading.Thread):
         self.filter_queue = filter_queue
 
     def run(self):
-        print('thread start----------------------------------')
-        filter1 = self.filter_queue.get()
-        test1 = DOAJ('http://121.42.164.187:8088/', ('xxjs', '123456a?'), filter1)
-        self.filter_queue.task_done()
-        test1.insertNewData("172.16.155.11", "doaj", "Doa123!@#j", "doaj")
-        print('thread end-------------------------------------')
+        while True:
+            print('thread start----------------------------------')
+            filter1 = self.filter_queue.get()
+            if filter1 is None:
+                break
+            test1 = DOAJ('http://121.42.164.187:8088/', ('xxjs', '123456a?'), filter1)
+            test1.insertDoajDatabase("172.16.155.11", "doaj", "Doa123!@#j", "doaj")
+            print('thread end-------------------------------------')
+            self.filter_queue.task_done()
 
             
 if __name__ == '__main__':
@@ -215,25 +218,13 @@ if __name__ == '__main__':
             new_filter = {'term_l1':term, 'year':ayear}
             filter_queue.put(new_filter)
 
-    thread1 = CrawlThread(filter_queue)
-    thread2 = CrawlThread(filter_queue)
-    thread3 = CrawlThread(filter_queue)
-    thread4 = CrawlThread(filter_queue)
-    thread5 = CrawlThread(filter_queue)
-    thread1.start()
-    thread2.start()
-    thread3.start()
-    thread4.start()
-    thread5.start()
+    for i in range(10):
+        thread = CrawlThread(filter_queue)
+        thread.start()
 
     filter_queue.join()
 
-    thread1.join()
-    thread2.join()
-    thread3.join()
-    thread4.join()
-    thread5.join()
-
+    print('MainThread End')
 
 
 
