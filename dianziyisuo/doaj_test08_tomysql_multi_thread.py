@@ -204,9 +204,10 @@ class CrawlThread(threading.Thread):
     def run(self):
         while True:
             print('thread start----------------------------------')
-            filter1 = self.filter_queue.get()
-            if filter1 is None:
+            if self.filter_queue.empty():
+                print('thread end-------------------------------------')
                 break
+            filter1 = self.filter_queue.get()
             test1 = DOAJ('http://121.42.164.187:8088/', ('xxjs', '123456a?'), filter1)
             test1.insertNewData("172.16.155.11", "doaj", "Doa123!@#j", "doaj")
             print('thread end-------------------------------------')
@@ -222,32 +223,22 @@ if __name__ == '__main__':
     year = ['2017', '2016', '2015', '2014', '2013', '2012', '2011', '2010', '2009', '2008', '2007', '2006', '2005', '2004', '2003', '2002', '2001', '2000']
     
     
-    # for term in term_l1:
-    #     for ayear in year:
-    #         new_filter = {'term_l1':term, 'year':ayear}
-    #         filter_queue.put(new_filter)    
-
-    # for i in range(10): 
-    #     thread = CrawlThread(filter_queue)
-    #     thread.start()
-
-    # filter_queue.join()
-
-    # for i in range(10):
-    #     thread.join()
-
-    # print('MainThread End')
-
-    count_sum = 0
     for term in term_l1:
         for ayear in year:
-             new_filter = {'term_l1':term, 'year':ayear}
-             test1 = DOAJ(base_url, auth, new_filter)
-             tmp_count = int(test1.getCount())
-             count_sum += tmp_count
-             print(count_sum)
+            new_filter = {'term_l1':term, 'year':ayear}
+            filter_queue.put(new_filter)    
 
-    print(count_sum)
+    for i in range(10): 
+        thread = CrawlThread(filter_queue)
+        thread.start()
+
+    filter_queue.join()
+
+    for i in range(10):
+        thread.join()
+
+    print('MainThread End')
+
 
 
     # 创建一个对象，可以通过setBaseUrl/setAuth/setFilter方法对参数进行修改
