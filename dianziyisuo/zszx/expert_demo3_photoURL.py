@@ -1,7 +1,4 @@
-# http://it.ckcest.cn:8000/portal.php?mod=view&aid=   HomePage
- 
-# http://it.ckcest.cn:8000/data/attachment/portal/   PhotoURL
- # -*- coding: utf-8 -*- 
+# -*- coding: utf-8 -*-
 
 import pymysql
 from bs4 import BeautifulSoup

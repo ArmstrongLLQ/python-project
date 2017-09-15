@@ -10,13 +10,19 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/zszx$cyzc_demo2_detailAddr.coverage" NAME="cyzc_demo2_detailAddr Coverage Results" MODIFIED="1505206901935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/zszx$demo6_title.coverage" NAME="demo6-title Coverage Results" MODIFIED="1505197764319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/zszx$Unittests_in_test_py.coverage" NAME="Unittests in test.py Coverage Results" MODIFIED="1505204489069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/zszx$hotfocus_demo3_relations.coverage" NAME="hotfocus_demo3_relations Coverage Results" MODIFIED="1505376529641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/zszx$standards_demo1_pubdate.coverage" NAME="standards_demo1_pubdate Coverage Results" MODIFIED="1505458321853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/zszx$hotfocus_demo1_description.coverage" NAME="hotfocus_demo1_description Coverage Results" MODIFIED="1505375433642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/zszx$cyzc_demo1_content.coverage" NAME="cyzc_demo1_content Coverage Results" MODIFIED="1505206065712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/zszx$xwzx_demo1_detailAddr.coverage" NAME="xwzx_demo1_detailAddr Coverage Results" MODIFIED="1505286374024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/zszx$demo4_degree.coverage" NAME="demo4_degree Coverage Results" MODIFIED="1505197818913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/zszx$demo7_introduce.coverage" NAME="demo7_introduce Coverage Results" MODIFIED="1505184950920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/zszx$baike_demo1_detailAddr.coverage" NAME="baike_demo1_detailAddr Coverage Results" MODIFIED="1505353144924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/zszx$zxbg_demo1_detailAddr.coverage" NAME="zxbg_demo1_detailAddr Coverage Results" MODIFIED="1505357076075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/zszx$hotfocus_demo2_solution.coverage" NAME="hotfocus_demo2_solution Coverage Results" MODIFIED="1505376139433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/zszx$cyzc_demo2_detailAddr.coverage" NAME="cyzc_demo2_detailAddr Coverage Results" MODIFIED="1505206901935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/zszx$demo6_title.coverage" NAME="demo6-title Coverage Results" MODIFIED="1505197764319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/zszx$Unittests_in_test_py.coverage" NAME="Unittests in test.py Coverage Results" MODIFIED="1505374481796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -33,39 +39,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="demo1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1440">
-              <caret line="61" column="10" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="61" selection-end-column="10" />
-              <folding>
-                <marker date="1505121666541" expanded="true" signature="187:226" ph="select Achie... expert2017_copy" />
-                <marker date="1505121666541" expanded="true" signature="668:741" ph="update exper... " />
-                <marker date="1505121666541" expanded="true" signature="933:972" ph="select Achie... expert2017_copy" />
-                <marker date="1505121666541" expanded="true" signature="1235:1308" ph="update exper... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="demo2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1505116734875" expanded="true" signature="315:351" ph="select HomeP... expert2017_copy" />
-                <marker date="1505116734875" expanded="true" signature="540:607" ph="update exper... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="18" column="49" lean-forward="false" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+            <state relative-caret-position="192">
+              <caret line="10" column="565" lean-forward="false" selection-start-line="10" selection-start-column="565" selection-end-line="10" selection-end-column="565" />
               <folding />
             </state>
           </provider>
@@ -75,45 +53,89 @@
         <entry file="file://$PROJECT_DIR$/test1.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="9730" lean-forward="false" selection-start-line="0" selection-start-column="9730" selection-end-line="0" selection-end-column="9730" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo6-title.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo6-title.py">
+      <file leaf-file-name="xwzx_demo1_detailAddr.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xwzx_demo1_detailAddr.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+            <state relative-caret-position="528">
+              <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
               <folding>
-                <marker date="1505197764211" expanded="true" signature="222:258" ph="select id,Ti... expert2017_copy" />
-                <marker date="1505197764211" expanded="true" signature="396:450" ph="update exper... " />
-                <marker date="1505197764211" expanded="true" signature="528:582" ph="update exper... " />
-                <marker date="1505197764211" expanded="true" signature="665:719" ph="update exper... " />
-                <marker date="1505197764211" expanded="true" signature="802:856" ph="update exper... " />
-                <marker date="1505197764211" expanded="true" signature="941:995" ph="update exper... " />
-                <marker date="1505197764211" expanded="true" signature="1084:1138" ph="update exper... " />
-                <marker date="1505197764211" expanded="true" signature="1212:1266" ph="update exper... " />
+                <marker date="1505358732162" expanded="true" signature="186:245" ph="select id,De... xwzx2017_copy" />
+                <marker date="1505358732162" expanded="true" signature="461:521" ph="update xwzx2... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo4_degree.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo4_degree.py">
+      <file leaf-file-name="hotfocus_demo1_description.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hotfocus_demo1_description.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+            <state relative-caret-position="240">
+              <caret line="11" column="23" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="48" selection-end-column="10" />
               <folding>
-                <marker date="1505197782261" expanded="true" signature="228:265" ph="select id,De... expert2017_copy" />
-                <marker date="1505197782261" expanded="true" signature="379:434" ph="update exper... " />
-                <marker date="1505197782261" expanded="true" signature="493:548" ph="update exper... " />
-                <marker date="1505197782261" expanded="true" signature="611:666" ph="update exper... " />
-                <marker date="1505197782261" expanded="true" signature="729:784" ph="update exper... " />
-                <marker date="1505197782261" expanded="true" signature="849:904" ph="update exper... " />
-                <marker date="1505197782261" expanded="true" signature="974:1029" ph="update exper... " />
-                <marker date="1505197782261" expanded="true" signature="1078:1133" ph="update exper... " />
+                <marker date="1505375431800" expanded="true" signature="185:244" ph="select id,De... hotfocus2017_copy" />
+                <marker date="1505375431800" expanded="true" signature="962:1024" ph="update hotfo... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hotfocus_demo2_solution.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hotfocus_demo2_solution.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="10" />
+              <folding>
+                <marker date="1505376139371" expanded="true" signature="185:238" ph="select id,So... hotfocus2017_copy" />
+                <marker date="1505376139371" expanded="true" signature="531:590" ph="update hotfo... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hotfocus_demo3_relations.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hotfocus_demo3_relations.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="457">
+              <caret line="37" column="10" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="37" selection-end-column="10" />
+              <folding>
+                <marker date="1505376520187" expanded="true" signature="185:240" ph="select id,Re... hotfocus2017_copy" />
+                <marker date="1505376520187" expanded="true" signature="533:593" ph="update hotfo... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="standards_demo1_pubdate.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/standards_demo1_pubdate.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-816">
+              <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+              <folding>
+                <element signature="e#24#38#0" expanded="true" />
+                <marker date="1505458316694" expanded="true" signature="1509:1606" ph="select id,Pu... zszx_standards_copy" />
+                <marker date="1505458316694" expanded="true" signature="1837:1944" ph="update zszx_... " />
+                <marker date="1505458316694" expanded="true" signature="1837:1947" ph="update zszx_... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="expert_demo1_achievement.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/expert_demo1_achievement.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1505358376996" expanded="true" signature="185:227" ph="select id,Ac... expert2017_copy" />
+                <marker date="1505358376996" expanded="true" signature="571:631" ph="update exper... " />
+                <marker date="1505358376996" expanded="true" signature="823:865" ph="select id,Ac... expert2017_copy" />
+                <marker date="1505358376996" expanded="true" signature="1240:1300" ph="update exper... " />
               </folding>
             </state>
           </provider>
@@ -123,7 +145,7 @@
         <entry file="file://$PROJECT_DIR$/cyzc_demo1_content.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
-              <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="43" />
+              <caret line="8" column="43" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="53" selection-end-column="10" />
               <folding>
                 <marker date="1505206060403" expanded="true" signature="185:221" ph="select id,co... cyzc2017_copy" />
                 <marker date="1505206060403" expanded="true" signature="1158:1212" ph="update cyzc2... " />
@@ -132,41 +154,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cyzc_demo2_detailAddr.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cyzc_demo2_detailAddr.py">
+      <file leaf-file-name="expert_demo7_introduce.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/expert_demo7_introduce.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1505270381837" expanded="true" signature="186:225" ph="select Detai... cyzc2017_copy" />
-                <marker date="1505270381837" expanded="true" signature="416:487" ph="update cyzc2... " />
-                <marker date="1505270381837" expanded="true" signature="416:491" ph="update cyzc2... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="xwzx_demo1_detailAddr.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/xwzx_demo1_detailAddr.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding>
-                <marker date="1505286346874" expanded="true" signature="186:233" ph="select id,De... xwzx2017_copy" />
-                <marker date="1505286346874" expanded="true" signature="455:503" ph="update xwzx2... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="demo3.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="60" lean-forward="false" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
-              <folding>
-                <marker date="1505121667584" expanded="true" signature="315:351" ph="select Photo... expert2017_copy" />
-                <marker date="1505121667584" expanded="true" signature="556:623" ph="update exper... " />
+                <marker date="1505184946860" expanded="true" signature="185:228" ph="select id,In... expert2017_copy" />
+                <marker date="1505184946860" expanded="true" signature="683:744" ph="update exper... " />
               </folding>
             </state>
           </provider>
@@ -187,10 +182,20 @@
         <option value="$PROJECT_DIR$/demo7_introduce.py" />
         <option value="$PROJECT_DIR$/demo6-title.py" />
         <option value="$PROJECT_DIR$/demo4_degree.py" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/cyzc_demo1_content.py" />
         <option value="$PROJECT_DIR$/cyzc_demo2_detailAddr.py" />
+        <option value="$PROJECT_DIR$/baike_demo1_detailAddr.py" />
+        <option value="$PROJECT_DIR$/zxbg_demo1_detailAddr.py" />
+        <option value="$PROJECT_DIR$/demo1.py" />
+        <option value="$PROJECT_DIR$/demo2.py" />
+        <option value="$PROJECT_DIR$/demo3.py" />
         <option value="$PROJECT_DIR$/xwzx_demo1_detailAddr.py" />
+        <option value="$PROJECT_DIR$/test1.py" />
+        <option value="$PROJECT_DIR$/hotfocus_demo1_description.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/hotfocus_demo2_solution.py" />
+        <option value="$PROJECT_DIR$/hotfocus_demo3_relations.py" />
+        <option value="$PROJECT_DIR$/standards_demo1_pubdate.py" />
       </list>
     </option>
   </component>
@@ -235,8 +240,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -256,45 +261,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.xwzx_demo1_detailAddr">
-    <configuration default="false" name="demo4_degree" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="zszx" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo4_degree.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="cyzc_demo1_content" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="zszx" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cyzc_demo1_content.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.standards_demo1_pubdate">
     <configuration default="false" name="Unittests in test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -311,7 +278,7 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <configuration default="false" name="cyzc_demo2_detailAddr" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="hotfocus_demo1_description" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -324,13 +291,13 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="zszx" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cyzc_demo2_detailAddr.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hotfocus_demo1_description.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="xwzx_demo1_detailAddr" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="hotfocus_demo2_solution" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -343,7 +310,45 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="zszx" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xwzx_demo1_detailAddr.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hotfocus_demo2_solution.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="hotfocus_demo3_relations" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="zszx" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hotfocus_demo3_relations.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="standards_demo1_pubdate" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="zszx" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/standards_demo1_pubdate.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -498,19 +503,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.demo4_degree" />
-      <item index="1" class="java.lang.String" itemvalue="Python.cyzc_demo1_content" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test.py" />
-      <item index="3" class="java.lang.String" itemvalue="Python.cyzc_demo2_detailAddr" />
-      <item index="4" class="java.lang.String" itemvalue="Python.xwzx_demo1_detailAddr" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python.hotfocus_demo1_description" />
+      <item index="2" class="java.lang.String" itemvalue="Python.hotfocus_demo2_solution" />
+      <item index="3" class="java.lang.String" itemvalue="Python.hotfocus_demo3_relations" />
+      <item index="4" class="java.lang.String" itemvalue="Python.standards_demo1_pubdate" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.xwzx_demo1_detailAddr" />
-        <item index="1" class="java.lang.String" itemvalue="Python.cyzc_demo2_detailAddr" />
-        <item index="2" class="java.lang.String" itemvalue="Python.cyzc_demo1_content" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test.py" />
-        <item index="4" class="java.lang.String" itemvalue="Python.demo4_degree" />
+        <item index="0" class="java.lang.String" itemvalue="Python.standards_demo1_pubdate" />
+        <item index="1" class="java.lang.String" itemvalue="Python.hotfocus_demo3_relations" />
+        <item index="2" class="java.lang.String" itemvalue="Python.hotfocus_demo2_solution" />
+        <item index="3" class="java.lang.String" itemvalue="Python.hotfocus_demo1_description" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test.py" />
       </list>
     </recent_temporary>
   </component>
@@ -534,6 +539,15 @@
     <history-entry file="Unittests_in_test_py - 2017.09.12 at 16h 23m 57s.xml">
       <configuration name="Unittests in test.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_test_py - 2017.09.14 at 15h 31m 10s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_py - 2017.09.14 at 15h 32m 39s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_py - 2017.09.14 at 15h 34m 42s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -545,15 +559,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="7" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17548595" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18466523" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3360184" sideWeight="0.5021552" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33487833" sideWeight="0.49784482" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33487833" sideWeight="0.49784482" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -576,41 +590,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test.py</url>
-          <line>14</line>
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="1" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/demo1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="61" column="10" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="61" selection-end-column="10" />
-          <folding>
-            <marker date="1505121666541" expanded="true" signature="187:226" ph="select Achie... expert2017_copy" />
-            <marker date="1505121666541" expanded="true" signature="668:741" ph="update exper... " />
-            <marker date="1505121666541" expanded="true" signature="933:972" ph="select Achie... expert2017_copy" />
-            <marker date="1505121666541" expanded="true" signature="1235:1308" ph="update exper... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1505116734875" expanded="true" signature="315:351" ph="select HomeP... expert2017_copy" />
-            <marker date="1505116734875" expanded="true" signature="540:607" ph="update exper... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/demo1.py" />
+    <entry file="file://$PROJECT_DIR$/demo2.py" />
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
@@ -627,52 +613,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo7_introduce.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="51" lean-forward="false" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
-          <folding>
-            <element signature="e#24#38#0" expanded="false" />
-            <marker date="1505184946860" expanded="true" signature="185:228" ph="select id,In... expert2017_copy" />
-            <marker date="1505184946860" expanded="true" signature="683:744" ph="update exper... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo6-title.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-          <folding>
-            <marker date="1505197764211" expanded="true" signature="222:258" ph="select id,Ti... expert2017_copy" />
-            <marker date="1505197764211" expanded="true" signature="396:450" ph="update exper... " />
-            <marker date="1505197764211" expanded="true" signature="528:582" ph="update exper... " />
-            <marker date="1505197764211" expanded="true" signature="665:719" ph="update exper... " />
-            <marker date="1505197764211" expanded="true" signature="802:856" ph="update exper... " />
-            <marker date="1505197764211" expanded="true" signature="941:995" ph="update exper... " />
-            <marker date="1505197764211" expanded="true" signature="1084:1138" ph="update exper... " />
-            <marker date="1505197764211" expanded="true" signature="1212:1266" ph="update exper... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo4_degree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-          <folding>
-            <marker date="1505197782261" expanded="true" signature="228:265" ph="select id,De... expert2017_copy" />
-            <marker date="1505197782261" expanded="true" signature="379:434" ph="update exper... " />
-            <marker date="1505197782261" expanded="true" signature="493:548" ph="update exper... " />
-            <marker date="1505197782261" expanded="true" signature="611:666" ph="update exper... " />
-            <marker date="1505197782261" expanded="true" signature="729:784" ph="update exper... " />
-            <marker date="1505197782261" expanded="true" signature="849:904" ph="update exper... " />
-            <marker date="1505197782261" expanded="true" signature="974:1029" ph="update exper... " />
-            <marker date="1505197782261" expanded="true" signature="1078:1133" ph="update exper... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/demo6-title.py" />
+    <entry file="file://$PROJECT_DIR$/demo4_degree.py" />
     <entry file="file://$PROJECT_DIR$/cyzc_demo1_content.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -684,163 +626,258 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo3.py">
+    <entry file="file://$PROJECT_DIR$/cyzc_demo2_detailAddr.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="60" lean-forward="false" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
+        <state relative-caret-position="384">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo3.py" />
+    <entry file="file://$PROJECT_DIR$/xwzx_demo1_detailAddr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <marker date="1505121667584" expanded="true" signature="315:351" ph="select Photo... expert2017_copy" />
-            <marker date="1505121667584" expanded="true" signature="556:623" ph="update exper... " />
+            <marker date="1505358732162" expanded="true" signature="186:245" ph="select id,De... xwzx2017_copy" />
+            <marker date="1505358732162" expanded="true" signature="461:521" ph="update xwzx2... " />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/demo1.py" />
+    <entry file="file://$PROJECT_DIR$/demo2.py" />
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="18" column="49" lean-forward="false" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="9730" lean-forward="false" selection-start-line="0" selection-start-column="9730" selection-end-line="0" selection-end-column="9730" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo6-title.py" />
+    <entry file="file://$PROJECT_DIR$/demo4_degree.py" />
+    <entry file="file://$PROJECT_DIR$/cyzc_demo1_content.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="43" />
+          <folding>
+            <marker date="1505206060403" expanded="true" signature="185:221" ph="select id,co... cyzc2017_copy" />
+            <marker date="1505206060403" expanded="true" signature="1158:1212" ph="update cyzc2... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cyzc_demo2_detailAddr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo3.py" />
+    <entry file="file://$PROJECT_DIR$/xwzx_demo1_detailAddr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <marker date="1505358732162" expanded="true" signature="186:245" ph="select id,De... xwzx2017_copy" />
+            <marker date="1505358732162" expanded="true" signature="461:521" ph="update xwzx2... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo1.py" />
+    <entry file="file://$PROJECT_DIR$/demo2.py" />
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="18" column="49" lean-forward="false" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="9730" lean-forward="false" selection-start-line="0" selection-start-column="9730" selection-end-line="0" selection-end-column="9730" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo7_introduce.py" />
+    <entry file="file://$PROJECT_DIR$/demo6-title.py" />
+    <entry file="file://$PROJECT_DIR$/demo4_degree.py" />
+    <entry file="file://$PROJECT_DIR$/cyzc_demo1_content.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="43" />
+          <folding>
+            <marker date="1505206060403" expanded="true" signature="185:221" ph="select id,co... cyzc2017_copy" />
+            <marker date="1505206060403" expanded="true" signature="1158:1212" ph="update cyzc2... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo3.py" />
     <entry file="file://$PROJECT_DIR$/cyzc_demo2_detailAddr.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-          <folding>
-            <marker date="1505270381837" expanded="true" signature="186:225" ph="select Detai... cyzc2017_copy" />
-            <marker date="1505270381837" expanded="true" signature="416:487" ph="update cyzc2... " />
-            <marker date="1505270381837" expanded="true" signature="416:491" ph="update cyzc2... " />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo5_sex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-288">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo7_introduce.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="51" lean-forward="false" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
-          <folding>
-            <element signature="e#24#38#0" expanded="false" />
-            <marker date="1505184946860" expanded="true" signature="185:228" ph="select id,In... expert2017_copy" />
-            <marker date="1505184946860" expanded="true" signature="683:744" ph="update exper... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo6-title.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-          <folding>
-            <marker date="1505197764211" expanded="true" signature="222:258" ph="select id,Ti... expert2017_copy" />
-            <marker date="1505197764211" expanded="true" signature="396:450" ph="update exper... " />
-            <marker date="1505197764211" expanded="true" signature="528:582" ph="update exper... " />
-            <marker date="1505197764211" expanded="true" signature="665:719" ph="update exper... " />
-            <marker date="1505197764211" expanded="true" signature="802:856" ph="update exper... " />
-            <marker date="1505197764211" expanded="true" signature="941:995" ph="update exper... " />
-            <marker date="1505197764211" expanded="true" signature="1084:1138" ph="update exper... " />
-            <marker date="1505197764211" expanded="true" signature="1212:1266" ph="update exper... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo4_degree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-          <folding>
-            <marker date="1505197782261" expanded="true" signature="228:265" ph="select id,De... expert2017_copy" />
-            <marker date="1505197782261" expanded="true" signature="379:434" ph="update exper... " />
-            <marker date="1505197782261" expanded="true" signature="493:548" ph="update exper... " />
-            <marker date="1505197782261" expanded="true" signature="611:666" ph="update exper... " />
-            <marker date="1505197782261" expanded="true" signature="729:784" ph="update exper... " />
-            <marker date="1505197782261" expanded="true" signature="849:904" ph="update exper... " />
-            <marker date="1505197782261" expanded="true" signature="974:1029" ph="update exper... " />
-            <marker date="1505197782261" expanded="true" signature="1078:1133" ph="update exper... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo2.py">
+    <entry file="file://$PROJECT_DIR$/demo6-title.py" />
+    <entry file="file://$PROJECT_DIR$/demo1.py" />
+    <entry file="file://$PROJECT_DIR$/demo2.py" />
+    <entry file="file://$PROJECT_DIR$/demo3.py" />
+    <entry file="file://$PROJECT_DIR$/demo4_degree.py" />
+    <entry file="file://$PROJECT_DIR$/demo5_sex.py" />
+    <entry file="file://$PROJECT_DIR$/expert_demo6-title.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1505116734875" expanded="true" signature="315:351" ph="select HomeP... expert2017_copy" />
-            <marker date="1505116734875" expanded="true" signature="540:607" ph="update exper... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="61" column="10" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="61" selection-end-column="10" />
-          <folding>
-            <marker date="1505121666541" expanded="true" signature="187:226" ph="select Achie... expert2017_copy" />
-            <marker date="1505121666541" expanded="true" signature="668:741" ph="update exper... " />
-            <marker date="1505121666541" expanded="true" signature="933:972" ph="select Achie... expert2017_copy" />
-            <marker date="1505121666541" expanded="true" signature="1235:1308" ph="update exper... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="9730" lean-forward="false" selection-start-line="0" selection-start-column="9730" selection-end-line="0" selection-end-column="9730" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="18" column="49" lean-forward="false" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="60" lean-forward="false" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
-          <folding>
-            <marker date="1505121667584" expanded="true" signature="315:351" ph="select Photo... expert2017_copy" />
-            <marker date="1505121667584" expanded="true" signature="556:623" ph="update exper... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cyzc_demo1_content.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="43" />
-          <folding>
-            <marker date="1505206060403" expanded="true" signature="185:221" ph="select id,co... cyzc2017_copy" />
-            <marker date="1505206060403" expanded="true" signature="1158:1212" ph="update cyzc2... " />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cyzc_demo2_detailAddr.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state relative-caret-position="672">
+          <caret line="29" column="17" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo7_introduce.py" />
+    <entry file="file://$PROJECT_DIR$/baike_demo1_detailAddr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zxbg_demo1_detailAddr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <marker date="1505270381837" expanded="true" signature="186:225" ph="select Detai... cyzc2017_copy" />
-            <marker date="1505270381837" expanded="true" signature="416:487" ph="update cyzc2... " />
-            <marker date="1505270381837" expanded="true" signature="416:491" ph="update cyzc2... " />
+            <marker date="1505357073392" expanded="true" signature="186:245" ph="select id,De... zxbg2017_copy" />
+            <marker date="1505357073392" expanded="true" signature="459:519" ph="update zxbg2... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xwzx_demo1_detailAddr.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="528">
+          <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
           <folding>
-            <marker date="1505286346874" expanded="true" signature="186:233" ph="select id,De... xwzx2017_copy" />
-            <marker date="1505286346874" expanded="true" signature="455:503" ph="update xwzx2... " />
+            <marker date="1505358732162" expanded="true" signature="186:245" ph="select id,De... xwzx2017_copy" />
+            <marker date="1505358732162" expanded="true" signature="461:521" ph="update xwzx2... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expert_demo1_achievement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1505358376996" expanded="true" signature="185:227" ph="select id,Ac... expert2017_copy" />
+            <marker date="1505358376996" expanded="true" signature="571:631" ph="update exper... " />
+            <marker date="1505358376996" expanded="true" signature="823:865" ph="select id,Ac... expert2017_copy" />
+            <marker date="1505358376996" expanded="true" signature="1240:1300" ph="update exper... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expert_demo7_introduce.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1505184946860" expanded="true" signature="185:228" ph="select id,In... expert2017_copy" />
+            <marker date="1505184946860" expanded="true" signature="683:744" ph="update exper... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cyzc_demo1_content.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="43" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="53" selection-end-column="10" />
+          <folding>
+            <marker date="1505206060403" expanded="true" signature="185:221" ph="select id,co... cyzc2017_copy" />
+            <marker date="1505206060403" expanded="true" signature="1158:1212" ph="update cyzc2... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotfocus_demo1_description.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="48" selection-end-column="10" />
+          <folding>
+            <marker date="1505375431800" expanded="true" signature="185:244" ph="select id,De... hotfocus2017_copy" />
+            <marker date="1505375431800" expanded="true" signature="962:1024" ph="update hotfo... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="10" column="565" lean-forward="false" selection-start-line="10" selection-start-column="565" selection-end-line="10" selection-end-column="565" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotfocus_demo2_solution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="10" />
+          <folding>
+            <marker date="1505376139371" expanded="true" signature="185:238" ph="select id,So... hotfocus2017_copy" />
+            <marker date="1505376139371" expanded="true" signature="531:590" ph="update hotfo... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hotfocus_demo3_relations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="37" column="10" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="37" selection-end-column="10" />
+          <folding>
+            <marker date="1505376520187" expanded="true" signature="185:240" ph="select id,Re... hotfocus2017_copy" />
+            <marker date="1505376520187" expanded="true" signature="533:593" ph="update hotfo... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standards_demo1_pubdate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-816">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding>
+            <element signature="e#24#38#0" expanded="true" />
+            <marker date="1505458316694" expanded="true" signature="1509:1606" ph="select id,Pu... zszx_standards_copy" />
+            <marker date="1505458316694" expanded="true" signature="1837:1944" ph="update zszx_... " />
+            <marker date="1505458316694" expanded="true" signature="1837:1947" ph="update zszx_... " />
           </folding>
         </state>
       </provider>
