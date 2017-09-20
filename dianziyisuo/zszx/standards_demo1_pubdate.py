@@ -1,16 +1,21 @@
 # -*- coding: utf-8 -*-
+# 使用正则表达式匹配不符合要求的时间格式，将其替换成标准格式时间
 import pymysql
 from bs4 import BeautifulSoup
 import re
 
 def match_str(str):
 	sub_str = ""
+	# 匹配XXXX-/.XX-/.XX
 	if re.match(r'\d{4}(\-|\/|\.)\d{1,2}(\-|\.)\d{1,2}', str):
 		sub_str = re.sub(r'\D','-',str)
+	# 匹配XXXX年XX月XX日
 	elif re.match(r'\d{4}年\d{1,2}月\d{1,2}日', str):
 		sub_str = re.sub(r'日', '', re.sub(r'年|月', '-', str))
+	# 匹配只有年的
 	elif re.fullmatch(r'\d{4}',str):
 		sub_str = re.fullmatch(r'\d{4}',str).group() + '-01-01'
+	# 匹配英文格式日期
 	elif re.match(r'\d{1,2}.[A-Z,a-z,.]*.\d{4}', str):
 		result = re.match(r'\d{1,2}.[A-Z,a-z,.]*.\d{4}', str)
 		day = re.match(r'\d{1,2}', str).group()
@@ -60,6 +65,7 @@ try:
 			new_imple_date = match_str(row[3])
 			new_stop_date = match_str(row[5])
 
+			# 同时更新三个时间字段
 			update_sql = """update zszx_standards_copy set newPubDate = '%s',newImpleDate = '%s',newStopDate = '%s' 
 							where id = %d """%(new_pub_date, new_imple_date, new_stop_date, row[0])
 			try:
@@ -77,6 +83,3 @@ except:
 	db.rollback()
 cursor.close()
 db.close()
-
-'January——1月 February——2月 March-----3月 April——4月 May——5月\
-July——7月 August——8月 September——9月 October——10月 November——11月 December——12月'

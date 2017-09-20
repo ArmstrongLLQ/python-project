@@ -1,16 +1,12 @@
  # -*- coding: utf-8 -*- 
 import pymysql
 from bs4 import BeautifulSoup
-import requests
-
-
-
-
 
 html_doc = """
-<p>面对如此层出不穷的网络诈骗手段，球迷们应该如何应对呢?卡巴斯基实验室的专家提供四点建议，助球迷们远离网络威胁，乐享足球狂欢季。<br/>1. 一定要在输入任何登录或机密信息之前仔细检查网页。<br/>2. 虽然以“https”开头的网站较之“http”更为安全，但这并不表示可以完全信任这些网站。网络罪犯能够通过其他渠道获得合法的SSL证书。<br/>3. 警惕不明发件人的邮件，尤其不要打开来源不明的邮件中的链接和附件，不要从不受信任的网站下载文件。<br/>4. 确保计算机上安装了反恶意软件产品，拦截钓鱼网站。</p><p>为了防范以世界杯话题为诱饵网络威胁，趋势科技建议用户采取以下措施进行防范：</p><p>1、下载世界杯相关应用、上网参与世界杯讨论等网络活动时，请尽量选择官方渠道，并谨慎辨别链接的安全性。</p><p>2、谨慎访问赌球、博彩等地下网站，这些网站往往是威胁传播的最好载体，而且监管措施相对薄弱，很容易导致用户被恶意软件或钓鱼网站入侵。</p><p>3、在讨论与世界杯相关话题时，保持头脑清醒，不要随意点击社交网站上发过来的陌生链接，也不要随意扫描相关二维码。</p><p>4、安装PC-cillin 2014云安全版等具有强大防恶意软件、防钓鱼网站的网络安全软件。</p><p><br/></p>
+ <abstract><![CDATA[本发明公开了一种Ag<sub>2<sub>Ga纳米针成型机理及尖端形貌控制研究方法按如下步骤一、计算模型建立Ag微粒与Ga微粒发生化学反应生成Ag<sub>2sub>Ga用方程2Ag+GaAg<sub>2<sub>Ga表示在整个计算模型中存在着三个密度场变量定义Ag微粒为c<sub>1<sub>(x,y,z,t)Ag<sub>2sub>Ga纳米针为c<sub>2sub>(x,y,z,t)Ga微粒为c<sub>3<sub>(x,y,z,t)c<sub>1<sub>为Ag微粒的浓度占总的微粒浓度的百分比c<sub>2sub>为Ag<sub>2sub>Ga微粒的浓度占总的微粒浓度的百分比c<sub>3<sub>为Ga微粒的浓度占总的微粒浓度的百分比该计算模型自由能主要由化学能和梯度能组成用如下方程表示<maths num="0001"><math><![CDATA[ <mrow> <mi>G<mi> <mo>=<mo> <munder> <mo>&Integral;mo> <mi>vmi> munder> <mo>{mo> <msub> <mi>Fmi> <mrow> <mi>cmi> <mi>hmi> mrow> m<sub> <mo>+mo> <msub> <mi>Fmi> <mrow> <mi>gmi> <mi>rmi> <mi>ami> <mi>dmi> mrow> msub> <mo>}mo> <mi>d<mi> <mi>V<mi> <mo>-mo> <mo>-mo> <mo>-mo> <mrow> <mo>(mo> <mn>1mn> <mo>)mo> mrow> mrow>]]></math><img file="DDA0001000527100000011.TIF" wi="510" he="111" /></maths>其中F<sub>ch<sub>表示化学能量变化F<sub>grad<sub>表示梯度能量变化二、通过改变材料的表面能来探究纳米针尖端形貌变化的作用规律控制不同材料纳米针尖端形貌变化。]]></abstract>
+
 """
-soup = BeautifulSoup(html_doc, 'lxml')
+soup = BeautifulSoup(html_doc)
 new_content = soup.get_text()
 # for para in soup.find_all():
 # 	new_content += para.get_text()
@@ -28,5 +24,6 @@ new_content = soup.get_text()
 # 		new_content = new_content.replace('"', '\\"')
 		
 print(new_content)
+print("dddd")
 
 
