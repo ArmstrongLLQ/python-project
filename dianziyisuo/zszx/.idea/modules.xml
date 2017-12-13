@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../../mongo-learn/.idea/mongo-learn.iml" filepath="$PROJECT_DIR$/../../mongo-learn/.idea/mongo-learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../../Project_local/python/data_split/.idea/data_split.iml" filepath="$PROJECT_DIR$/../../../../../Project_local/python/data_split/.idea/data_split.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../doaj/.idea/doaj.iml" filepath="$PROJECT_DIR$/../doaj/.idea/doaj.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/zszx.iml" filepath="$PROJECT_DIR$/.idea/zszx.iml" />
     </modules>
   </component>
