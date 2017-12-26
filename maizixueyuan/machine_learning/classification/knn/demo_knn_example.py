@@ -9,7 +9,7 @@ knn = neighbors.KNeighborsClassifier()
 iris = datasets.load_iris()
 
 
-print(iris)
+# print(iris)
 
 knn.fit(iris.data, iris.target)
 
