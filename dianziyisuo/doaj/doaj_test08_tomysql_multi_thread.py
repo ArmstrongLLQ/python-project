@@ -226,7 +226,7 @@ if __name__ == '__main__':
     for term in term_l1:
         for ayear in year:
             new_filter = {'term_l1':term, 'year':ayear}
-            filter_queue.put(new_filter)    
+            filter_queue.put(new_filter)
 
     for i in range(10): 
         thread = CrawlThread(filter_queue)

@@ -3,7 +3,7 @@
 import pymysql
 from bs4 import BeautifulSoup
 
-db = pymysql.connect("172.16.155.12","root","myzszx002","zszx2017",charset = "utf8")
+db = pymysql.connect("172.16.155.92","root","myzszx002","zszx2017",charset = "utf8", port=3326)
 cursor = db.cursor()
 
 
@@ -14,7 +14,7 @@ try:
 	results = cursor.fetchall()
 	for row in results:
 		if(row[0]):
-			detail_addr = "http://it.ckcest.cn:8000/portal.php?mod=view&aid=" + row[0]
+			detail_addr = "http://it.ckcest.cn/portal.php?mod=view&aid=" + row[0]
 
 			update_sql = """update cyzc2017_copy set newDetailAddress = "%s" where DetailAddress = "%s" """%(detail_addr, row[0])
 			try:
