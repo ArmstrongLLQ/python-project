@@ -12,6 +12,7 @@ def open_excel(file):
 		return data
 	except Exception as e:
 		print(str(e))
+		
 #根据索引获取Excel表格中的数据   参数:file：Excel文件路径     colnameindex：表头列名所在行的所以  ，by_index：表的索引
 def excel_table_byindex(file,colnameindex=0,by_index=0):
 	data = open_excel(file)

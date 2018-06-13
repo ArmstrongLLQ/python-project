@@ -1,0 +1,5 @@
+2018-03-08 15:50:45,365 [Thread-8:9480] [django.request:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2018-03-09 09:54:12,493 [Thread-3:8684] [django.request:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2018-03-09 10:05:32,379 [Thread-23:2144] [django.request:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2018-03-12 10:08:39,762 [Thread-25:1424] [django.request:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2018-03-12 10:08:46,303 [Thread-26:2572] [django.request:93] [base:get_response] [WARNING]- Not Found: /favicon.ico

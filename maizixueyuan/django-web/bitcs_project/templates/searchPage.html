@@ -1,0 +1,69 @@
+{% extends 'base.html' %}
+{% load myfilter %}
+{% block searchResult %}
+<div class="container">
+    <div class="row clearfix">
+        <div class="col-md-1 column">
+        </div>
+        <div class="col-md-10 column">
+            <ul class="breadcrumb">
+                <li>
+                     <a href="index">首页</a>
+                </li>
+
+                <li class="active">
+                    搜索结果
+                </li>
+            </ul>
+            <div id="news_list">
+              <table class="table" style="table-layout: fixed;width: 100%">
+                <thead>
+                  <tr>
+                    <th width="85%">
+                      搜索结果
+                    </th>
+                    <th width="15%" align="right">
+                      时间
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+    {% for result in query_results %}
+        <tr>
+        <td><a href="detailPage?_id={{ result | private:'_id' }}">{{ result.title }}</a></td><td>{{ result.time | date:'Y-m-d' }}</td>
+        </tr>
+    {% endfor %}
+</tbody>
+</table>
+</div>
+<div>
+      <ul class="pagination">
+      <li><a href="?page=1&kw={{ kw }}">首页</a></li>
+    {% if query_results.has_previous %}
+    <li><a href="?page={{ query_results.previous_page_number }}&kw={{ kw }}">&laquo;上一页</a></li>
+    {% else %}
+        <li ><a href="">&laquo;上一页</a></li>
+    {% endif %}
+          <li ><a>{{ query_results.number }}/{{ query_results.paginator.num_pages }}</a></li>
+
+    {% if query_results.has_next %}
+      <li ><a href="?page={{ query_results.next_page_number }}&kw={{ kw }}">下一页 &raquo;</a></li>
+    {% else %}
+        <li><a href="">下一页 &raquo;</a></li>
+    {% endif %}
+    <li><a href="?page={{ query_results.paginator.num_pages }}&kw={{ kw }}">尾页</a></li>
+      </ul>
+ <form method="get" name="page_form" action="">
+          <input type="number" name="page">
+          <input type="hidden" name="kw" value="{{ kw }}">
+          <input type="submit" value="跳转">
+      </form>
+    </div>
+</div>
+        <div class="col-md-1 column">
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+

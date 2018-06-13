@@ -1,0 +1,79 @@
+{% load static %}
+{% load myfilter %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>信息化定制采集</title>
+
+    <!-- Bootstrap -->
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>s
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript">
+        function showTable(str)
+        {
+          var xmlhttp;
+          if (str=="")
+          {
+            return;
+          }
+          if (window.XMLHttpRequest)
+          {
+            // IE7+, Firefox, Chrome, Opera, Safari 浏览器执行代码
+            xmlhttp=new XMLHttpRequest();
+          }
+          else
+          {
+            // IE6, IE5 浏览器执行代码
+            xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+          }
+          xmlhttp.onreadystatechange=function()
+          {
+            if (xmlhttp.readyState==4 && xmlhttp.status==200)
+            {
+              document.getElementById("news_list").innerHTML=xmlhttp.responseText;
+            }
+          }
+          xmlhttp.open("GET","get_news_list.php?q="+str,true);
+          xmlhttp.send();
+        }
+
+        function validateForm(){
+        	var x = document.forms['searchForm']['QueryString'].value;
+        	if(x == null || x == ""){
+        		alert('请输入关键字！');
+        		return false;
+        	}
+        }
+    </script>
+  </head>
+  <body>
+    <div class="head" align="center"><h1>
+        <b>信息化定制采集</b>
+      </h1><br>
+
+  <FORM method="get" action="searchPage" onsubmit="return validateForm()" name="searchForm">
+<INPUT type="Text" name="kw">
+<INPUT type="Submit" value="搜索">
+<input type="button" name="AdvancedSearch" onclick="javascript:window.location.href='advSearchPage'" value="高级搜索">
+</FORM>
+</div>
+<br><br>
+{% block indexPage %}
+{% endblock %}
+    {% block searchResult %}
+    {% endblock %}
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+  </body>
+</html>

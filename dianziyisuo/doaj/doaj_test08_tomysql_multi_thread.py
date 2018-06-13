@@ -4,7 +4,6 @@
 对数据库数据进行增删改查操作
 '''
 # -*- coding: utf-8 -*-
-import json
 import requests
 import urllib
 import pymysql
@@ -45,8 +44,21 @@ class DOAJ:
     # 将数据库插入语句封装成函数
     def __insertMysql(self, each, db, cursor, insert_success):
         # sql语句
-        sql = """INSERT INTO doaj_data(`id`, `title`, `title_translation`, `abstract`, `abstract_translation`, `year`, `url`, `start_page`, `end_page`, `article_created_date`, `article_last_updated`, `journals_publisher`, `journals_language`, `journals_licenseId`, `journals_title`, `journals_country`, `journals_number`, `journals_volume`, `journals_issns`, `journals_create_date`, `term`, `term_code`, `term_l1`, `keyword`, `keyword_translation`, `author_name`, `author_affiliation`, `author_email`, `identifier_type`, `identifier_identifierId`, `license_type`, `license_title`, `license_url`) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"""
-        my_value = (each['id'], each['title'], each['title_translation'], each['abstract'], each['abstract_translation'], each['year'], each['url'], each['start_page'], each['end_page'], each['article_created_date'], each['article_last_updated'], each['journals_publisher'], each['journals_language'], each['journals_licenseId'], each['journals_title'], each['journals_country'], each['journals_number'], each['journals_volume'], each['journals_issns'], each['journals_create_date'], each['term'], each['term_code'], each['term_l1'], each['keyword'], each['keyword_translation'], each['author_name'], each['author_affiliation'], each['author_email'], each['identifier_type'], each['identifier_identifierId'], each['license_type'], each['license_title'], each['license_url'])
+        sql = """INSERT INTO doaj_data(`id`, `title`, `title_translation`, `abstract`, `abstract_translation`,
+ `year`, `url`, `start_page`, `end_page`, `article_created_date`, `article_last_updated`, `journals_publisher`,
+  `journals_language`, `journals_licenseId`, `journals_title`, `journals_country`, `journals_number`, `journals_volume`,
+   `journals_issns`, `journals_create_date`, `term`, `term_code`, `term_l1`, `keyword`, `keyword_translation`, 
+   `author_name`, `author_affiliation`, `author_email`, `identifier_type`, `identifier_identifierId`, `license_type`, 
+   `license_title`, `license_url`) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s,
+    %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"""
+        my_value = (each['id'], each['title'], each['title_translation'], each['abstract'], each['abstract_translation'],
+                    each['year'], each['url'], each['start_page'], each['end_page'], each['article_created_date'],
+                    each['article_last_updated'], each['journals_publisher'], each['journals_language'],
+                    each['journals_licenseId'], each['journals_title'], each['journals_country'], each['journals_number'],
+                    each['journals_volume'], each['journals_issns'], each['journals_create_date'], each['term'],
+                    each['term_code'], each['term_l1'], each['keyword'], each['keyword_translation'], each['author_name'],
+                    each['author_affiliation'], each['author_email'], each['identifier_type'],
+                    each['identifier_identifierId'], each['license_type'], each['license_title'], each['license_url'])
         try:
             # 执行sql语句
             cursor.execute(sql, my_value)
@@ -226,7 +238,7 @@ if __name__ == '__main__':
     for term in term_l1:
         for ayear in year:
             new_filter = {'term_l1':term, 'year':ayear}
-            filter_queue.put(new_filter)
+            filter_queue.put(new_filter)    
 
     for i in range(10): 
         thread = CrawlThread(filter_queue)

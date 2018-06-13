@@ -1,0 +1,113 @@
+{% extends 'base.html' %}
+{% load myfilter %}
+{% block indexPage %}
+<div class="container">
+  <div class="row clearfix">
+    <div class="col-md-1 column">
+    </div>
+    <div class="col-md-2 column">
+      <div class="list-group">
+        <a href="index" class="list-group-item active">首页</a>
+         <a href="index" class="list-group-item active">信息化</a>
+        <div class="list-group-item">
+          <a href="?menu=inforday">产业新闻</a>
+        </div>
+        <div class="list-group-item">
+          <a href="?menu=inforcondunction">市场观察</a>
+        </div>
+        <div class="list-group-item">
+          <a href="?menu=jimo">行业展览</a>
+        </div>
+        <a class="list-group-item active"> 网络安全</a>
+        <div class="list-group-item">
+          <a href="#">网络安全1</a>
+        </div>
+        <div class="list-group-item">
+          <a href="#">网络安全2</a>
+        </div>
+        <div class="list-group-item">
+          <a href="#">网络安全3</a>
+        </div>
+        <a class="list-group-item active"> 采集源</a>
+        <div class="list-group-item">
+          <a href="?page=1&news_source=产业新闻">新华网</a>
+        </div>
+        <div class="list-group-item">
+          <a href="?page=1&news_source=产业新闻">人民网科技产业动态</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-8 column">
+      <!-- <div class="btn-group">
+         <button class="btn btn-default">全部</button> <button data-toggle="dropdown" class="btn btn-default dropdown-toggle"><span class="caret"></span></button>
+        <ul class="dropdown-menu">
+          <li>
+             <a href="#">来源1</a>
+          </li>
+          <li>
+             <a href="#">来源2</a>
+          </li>
+          <li class="disabled">
+             <a href="#">来源3</a>
+          </li>
+          <li class="divider">
+          </li>
+          <li>
+             <a href="#">其它</a>
+          </li>
+        </ul>
+      </div> -->
+      <form>
+          <select name="sources" onchange="showTable(this.value)">
+              <option value="">全部</option>
+              <option value="1">来源一</option>
+              <option value="2">来源二</option>
+          </select>
+      </form>
+      <div id="news_list">
+      <table class="table" style="table-layout: fixed;width: 100%">
+        <thead>
+          <tr>
+            <th width="85%">
+              动态信息
+            </th>
+            <th width="15%" align="right">
+              时间
+            </th>
+          </tr>
+        {% for inforday in inf_list %}
+            <tr>
+                <td><a href="detailPage?_id={{ inforday | private:'_id' }}">{{ inforday.title }}</a></td><td>{{ inforday.time | date:'Y-m-d' }}</td>
+            </tr>
+        {% endfor %}
+
+        </thead>
+        <tbody>
+
+        </tbody>
+      </table>
+
+    <div>
+      <ul class="pagination">
+
+    {% if inf_list.has_previous %}
+    <li><a href="?page={{ inf_list.previous_page_number }}&menu={{ menu }}">&laquo;上一页</a></li>
+    {% else %}
+        <li ><a href="">&laquo;上一页</a></li>
+    {% endif %}
+          <li ><a>{{ inf_list.number }}/{{ inf_list.paginator.num_pages }}</a></li>
+    {% if inf_list.has_next %}
+      <li ><a href="?page={{ inf_list.next_page_number }}&menu={{ menu }}">下一页 &raquo;</a></li>
+    {% else %}
+        <li><a href="">下一页 &raquo;</a></li>
+    {% endif %}
+      </ul>
+    </div>
+    </div>
+    <div class="col-md-1 column">
+    </div>
+</div>
+</div>
+
+</div>
+{% endblock %}

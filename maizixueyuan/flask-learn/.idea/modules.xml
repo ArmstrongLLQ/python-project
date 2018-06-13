@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../django-web/bitcs_project/.idea/bitcs_project.iml" filepath="$PROJECT_DIR$/../django-web/bitcs_project/.idea/bitcs_project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../django-web/blog_project/.idea/blog_project.iml" filepath="$PROJECT_DIR$/../django-web/blog_project/.idea/blog_project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../django-web/blog_project2/.idea/blog_project2.iml" filepath="$PROJECT_DIR$/../django-web/blog_project2/.idea/blog_project2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../django-web/blog_project3/.idea/blog_project3.iml" filepath="$PROJECT_DIR$/../django-web/blog_project3/.idea/blog_project3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../dianziyisuo/.idea/dianziyisuo.iml" filepath="$PROJECT_DIR$/../../dianziyisuo/.idea/dianziyisuo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/flask-learn.iml" filepath="$PROJECT_DIR$/.idea/flask-learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tkinter/lesson1/.idea/lesson1.iml" filepath="$PROJECT_DIR$/../tkinter/lesson1/.idea/lesson1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../.idea/maizixueyuan.iml" filepath="$PROJECT_DIR$/../.idea/maizixueyuan.iml" />
+    </modules>
+  </component>
+</project>

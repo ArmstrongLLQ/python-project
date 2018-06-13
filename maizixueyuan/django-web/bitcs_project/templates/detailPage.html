@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% block indexPage %}
+
+<div class="container">
+	<div class="row clearfix">
+		<div class="col-md-1 column">
+		</div>
+		<div class="col-md-10 column">
+			<ul class="breadcrumb">
+				<li>
+					 <a href="/index">首页</a>
+				</li>
+				<li>
+					 <a href="/index">信息化建设</a>
+				</li>
+				<li class="active">
+					正文
+				</li>
+			</ul>
+<br>
+        {% for i in news %}
+<div>
+	<h2 align="center"><b>{{ i.title }}</b></h2>
+</div>
+<br>
+<h4 align="center">发布时间：{{ i.time | date:'Y-m-d' }}</h4>
+<br>
+<p ><font size="4">
+{{ i.content }}
+
+</font></p>
+<p align="right"><a href={{ i.url }}>查看原文</a></p>
+		</div>
+        {% endfor %}
+		<div class="col-md-1 column">
+		</div>
+	</div>
+</div>
+
+{% endblock %}
+
