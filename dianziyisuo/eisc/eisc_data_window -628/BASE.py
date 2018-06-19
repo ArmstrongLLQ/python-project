@@ -110,6 +110,17 @@ def transTime(time):
 		# print(trans_time)
 		return trans_time
 
+	# 2018/2/15
+	another_time4 = re.search(r'\d\d\d\d/\d+/\d+', time)
+	if another_time4:
+		temp = another_time4.group()
+		year = temp.split('/')[0]
+		month = temp.split('/')[1]
+		day = temp.split('/')[2]
+		trans_time = year + '-' + month + '-' + day
+		# print(trans_time)
+		return trans_time
+
 	another_time2 = re.search(r'\d\d\d\d/\d\d', time)
 	if another_time2:
 		temp = another_time2.group()
@@ -131,13 +142,13 @@ def transTime(time):
 		# print(trans_time)
 		return trans_time
 
-	# 2018/2/15
-	another_time4 = re.search(r'\d\d\d\d/\d+/\d+', time)
-	if another_time4:
-		temp = another_time4.group()
-		year = temp.split('/')[0]
-		month = temp.split('/')[1]
-		day = temp.split('/')[2]
+	# 20160202-20160203
+	another_time5 = re.search(r'\d\d\d\d\d\d\d\d', time)
+	if another_time5:
+		temp = another_time5.group()
+		year = temp[0:4]
+		month = temp[4:6]
+		day = temp[6:8]
 		trans_time = year + '-' + month + '-' + day
 		# print(trans_time)
 		return trans_time
