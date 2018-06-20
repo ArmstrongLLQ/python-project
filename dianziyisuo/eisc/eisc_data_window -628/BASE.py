@@ -291,7 +291,7 @@ def updateData(excel_file, table_list, field_to_field_dict, filepath_in_computer
 	else:
 		index_filename = 0
 	if field_to_field_dict['filesize'] != '':
-		index_filesize, nrows, ncols = getIndexByTitle(excel_data, title=field_to_field_dict['  filesize'])
+		index_filesize, nrows, ncols = getIndexByTitle(excel_data, title=field_to_field_dict['filesize'])
 	else:
 		index_filesize = 0
 	if field_to_field_dict['pubdate'] != '':
@@ -316,11 +316,27 @@ def updateData(excel_file, table_list, field_to_field_dict, filepath_in_computer
 			if '.pdf' not in old_filename:
 				old_filename = old_filename + '.pdf'
 			if old_filename[0] != '/':
-				new_filename = filepath_in_computer + '/' + old_filename
-				wtsheet.write(i, index_filename, new_filename)
+				old_filename = '/' + old_filename
+
+			if field_to_field_dict['file_path'] != '':
+				old_filepath = table_list[i-1][field_to_field_dict['file_path']].replace('\\', '/')
+				if old_filepath[-1] == '/':
+					old_filepath = old_filepath[:-1]
+
+				old_filepath_list = old_filepath.split('/')
+				if field_to_field_dict['filepath_level'] != '':
+					second_filepath = ''
+					filepath_level = int(field_to_field_dict['filepath_level'])
+					old_filepath_list = old_filepath_list[len(old_filepath_list)-filepath_level:]
+					for o in old_filepath_list:
+						second_filepath += '/' + o
+				else:
+					second_filepath = ''
+				new_filename = filepath_in_computer + second_filepath + old_filename
 			else:
 				new_filename = filepath_in_computer + old_filename
-				wtsheet.write(i, index_filename, new_filename)
+			wtsheet.write(i, index_filename, new_filename)
+
 		if index_filesize != 0:
 			new_filesize = fileSizeChange(table_list[i-1][field_to_field_dict['filesize']])
 			wtsheet.write(i, index_filesize, new_filesize)
@@ -381,8 +397,8 @@ def excelDataChange(excel_file, report_name, report_type, field_to_field_dict):
 					else:
 						temp_dict[key] = t[value]
 				elif key == 'filename':
-					temp_dict[key] = t[value].split('/')[-1]
 					temp_dict['filepath'] = t[value]
+					temp_dict[key] = t[value].split('/')[-1]
 				else:
 					temp_dict[key] = t[value]
 			else:
@@ -395,7 +411,7 @@ def excelDataChange(excel_file, report_name, report_type, field_to_field_dict):
 		temp_dict['encryptlevel'] = '1'
 		temp_dict['language'] = 'eng'
 		temp_dict['docmedia'] = 'P'
-		# print(temp_dict)
+
 		data_list.append(temp_dict)
 	return data_list
 
