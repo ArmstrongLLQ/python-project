@@ -377,9 +377,12 @@ def excelDataChange(excel_file, report_name, report_type, field_to_field_dict):
 					else:
 						temp_dict['sid'] = getSidFromS_sourceByMeetingname(t[value])
 				elif key == 'mtitle':
-					if len(t[value]) >= 200:
-						temp_dict[key] = t[value][:200]
-					else:
+					try:
+						if len(t[value]) >= 200:
+							temp_dict[key] = t[value][:200]
+						else:
+							temp_dict[key] = t[value]
+					except:
 						temp_dict[key] = t[value]
 				elif key == 'authors':
 					if len(t[value]) >= 200:
