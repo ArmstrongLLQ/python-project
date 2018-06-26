@@ -236,7 +236,10 @@ def getSidFromS_sourceByMeetingname(meeting_name):
 		print(e)
 	cursor.close()
 	db.close()
-	return s_id[0]
+	try:
+		return s_id[0]
+	except:
+		print(meeting_name)
 
 # 根据报告的类型获取doctype
 def getDoctypeByReportTpye(report_type):
