@@ -444,6 +444,9 @@ def excelDataChange(excel_file, report_name, report_type, field_to_field_dict):
 				if key == 'sourcename':
 					sourcename = 'No Title (' + getDoctypeByReportTpye(report_type) + ')'
 					temp_dict['sid'] = getSidFromS_sourceByMeetingname(sourcename)
+				elif key == 'filename':
+					temp_dict['filepath'] = None
+					temp_dict[key] = None
 				else:
 					temp_dict[key] = None
 		temp_dict['cid'] = getCid(report_name)
@@ -461,13 +464,15 @@ def insertNewDataToS_data(data_list, report_name):
 	s_data_num = 's_data_' + str(int(cid) + 1000)
 
 	for data in data_list:
-		# 18个字段
 		sql = 'insert into ' + s_data_num + """ (`sid`,`cid`,`year`,`vol`,`encryptlevel`,`language`,`docmedia`,`doi`,`mtitle`,
-`authors`,`authorunit`,`keyword`,`abstracts`,`pages`,`bepage`,`filename`,`filepath`,`filesize`) values 
-(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)"""
+`authors`,`authorunit`,`keyword`,`abstracts`,`pages`,`bepage`,`filename`,`filepath`,`filesize`, `temp01`, `temp02`,
+ `temp03`, `temp04`, `temp05`, `temp06`, `temp07`, `temp08`, `temp09`, `corporateauthor`) values 
+(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)"""
 		my_value = (data['sid'],data['cid'],data['year'],data['vol'],data['encryptlevel'],data['language'],
 		            data['docmedia'],data['doi'],data['mtitle'],data['authors'],data['authorunit'],data['keyword'],
-		            data['abstracts'],data['pages'],data['bepage'],data['filename'],data['filepath'],data['filesize'])
+		            data['abstracts'],data['pages'],data['bepage'],data['filename'],data['filepath'],data['filesize'],
+		            data['temp01'],data['temp02'],data['temp03'],data['temp04'],data['temp05'],data['temp06'],
+		            data['temp07'],data['temp08'],data['temp09'],data['corporateauthor'])
 		# print(sql)
 		try:
 			cursor.execute(sql, my_value)
@@ -492,7 +497,8 @@ def changeDocidById(report_name):
 		for r in results:
 			# print(r[0])
 			id = r[0]
-			docid = int('1001000' + str(id))
+			docid = (int(cid) + 1000) * 10000000000 + int(id)
+			# docid = int('1001000' + str(id))
 			sql2 = 'update ' + s_data_num + ' set docid = %d where id = %d' % (docid, id)
 			# print(sql2)
 			try:
@@ -524,14 +530,18 @@ def insertErrorData(data_list, report_name):
 			filename_list.append(r[0])
 		for data in data_list:
 			if data['filename'] not in filename_list:
-				# 18个字段
 				sql = 'insert into ' + s_data_num + """ (`sid`,`cid`,`year`,`vol`,`encryptlevel`,`language`,`docmedia`,`doi`,`mtitle`,
-			`authors`,`authorunit`,`keyword`,`abstracts`,`pages`,`bepage`,`filename`,`filepath`,`filesize`) values
-			(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)"""
+				`authors`,`authorunit`,`keyword`,`abstracts`,`pages`,`bepage`,`filename`,`filepath`,`filesize`, `temp01`, `temp02`,
+				 `temp03`, `temp04`, `temp05`, `temp06`, `temp07`, `temp08`, `temp09`, `corporateauthor`) values 
+				(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)"""
 				my_value = (data['sid'], data['cid'], data['year'], data['vol'], data['encryptlevel'], data['language'],
-				            data['docmedia'], data['doi'], data['mtitle'], data['authors'], data['authorunit'], data['keyword'],
+				            data['docmedia'], data['doi'], data['mtitle'], data['authors'], data['authorunit'],
+				            data['keyword'],
 				            data['abstracts'], data['pages'], data['bepage'], data['filename'], data['filepath'],
-				            data['filesize'])
+				            data['filesize'],
+				            data['temp01'], data['temp02'], data['temp03'], data['temp04'], data['temp05'],
+				            data['temp06'],
+				            data['temp07'], data['temp08'], data['temp09'], data['corporateauthor'])
 				# print(sql)
 				try:
 					cursor.execute(sql, my_value)
