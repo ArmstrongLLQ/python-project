@@ -473,19 +473,19 @@ def insertNewDataToS_data(data_list, report_name):
 		            data['temp01'],data['temp02'],data['temp03'],data['temp04'],data['temp05'],data['temp06'],
 		            data['temp07'],data['temp08'],data['temp09'],data['corporateauthor'])
 		data_tuple_list.append(data_tuple)
-		sql = 'insert into ' + s_data_num + """ (`sid`,`cid`,`year`,`vol`,`encryptlevel`,`language`,`docmedia`,`doi`,`mtitle`,
+	sql = 'insert into ' + s_data_num + """ (`sid`,`cid`,`year`,`vol`,`encryptlevel`,`language`,`docmedia`,`doi`,`mtitle`,
 `authors`,`authorunit`,`keyword`,`abstracts`,`pages`,`bepage`,`filename`,`filepath`,`filesize`, `temp01`, `temp02`,
- `temp03`, `temp04`, `temp05`, `temp06`, `temp07`, `temp08`, `temp09`, `corporateauthor`) values 
+`temp03`, `temp04`, `temp05`, `temp06`, `temp07`, `temp08`, `temp09`, `corporateauthor`) values 
 (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)"""
 
-		# print(sql)
-		try:
-			cursor.executemany(sql, data_tuple_list)
-			db.commit()
-		except Exception as e:
-			print(e)
-			count += 1
-			db.rollback()
+	# print(sql)
+	try:
+		cursor.executemany(sql, data_tuple_list)
+		db.commit()
+	except Exception as e:
+		print(e)
+		count += 1
+		db.rollback()
 	cursor.close()
 	db.close()
 	return count
