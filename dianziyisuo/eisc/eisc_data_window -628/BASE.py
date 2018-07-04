@@ -463,23 +463,28 @@ def insertNewDataToS_data(data_list, report_name):
 	cid = getCid(report_name)
 	s_data_num = 's_data_' + str(int(cid) + 1000)
 
+	data_tuple_list = []
 	for data in data_list:
-		sql = 'insert into ' + s_data_num + """ (`sid`,`cid`,`year`,`vol`,`encryptlevel`,`language`,`docmedia`,`doi`,`mtitle`,
-`authors`,`authorunit`,`keyword`,`abstracts`,`pages`,`bepage`,`filename`,`filepath`,`filesize`, `temp01`, `temp02`,
- `temp03`, `temp04`, `temp05`, `temp06`, `temp07`, `temp08`, `temp09`, `corporateauthor`) values 
-(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)"""
-		my_value = (data['sid'],data['cid'],data['year'],data['vol'],data['encryptlevel'],data['language'],
+		# 将字典形式的数据转换为tuple，然后添加到list中，以便进行批量更新操作，提高效率
+		# 注意顺序要与sql语句中的字段名称和顺序相对应
+		data_tuple = (data['sid'],data['cid'],data['year'],data['vol'],data['encryptlevel'],data['language'],
 		            data['docmedia'],data['doi'],data['mtitle'],data['authors'],data['authorunit'],data['keyword'],
 		            data['abstracts'],data['pages'],data['bepage'],data['filename'],data['filepath'],data['filesize'],
 		            data['temp01'],data['temp02'],data['temp03'],data['temp04'],data['temp05'],data['temp06'],
 		            data['temp07'],data['temp08'],data['temp09'],data['corporateauthor'])
+		data_tuple_list.append(data_tuple)
+		sql = 'insert into ' + s_data_num + """ (`sid`,`cid`,`year`,`vol`,`encryptlevel`,`language`,`docmedia`,`doi`,`mtitle`,
+`authors`,`authorunit`,`keyword`,`abstracts`,`pages`,`bepage`,`filename`,`filepath`,`filesize`, `temp01`, `temp02`,
+ `temp03`, `temp04`, `temp05`, `temp06`, `temp07`, `temp08`, `temp09`, `corporateauthor`) values 
+(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)"""
+
 		# print(sql)
 		try:
-			cursor.execute(sql, my_value)
+			cursor.executemany(sql, data_tuple_list)
 			db.commit()
-			count += 1
 		except Exception as e:
 			print(e)
+			count += 1
 			db.rollback()
 	cursor.close()
 	db.close()

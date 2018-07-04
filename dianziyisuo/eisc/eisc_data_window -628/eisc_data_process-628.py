@@ -447,11 +447,10 @@ class MainWindow:
 		count1 = insertNewDataToS_data(data_list, report_name)
 		count2 = changeDocidById(report_name)
 
-		if count==count1 and count==count2:
+		if count == count2:
 			msgb.showinfo('congragulate!', 'you have finished this excel file, please select a new excel file or close main window')
 		else:
-			error_num = count - count1
-			msgb.showerror('error!', 'you have %s data insert into s_data failed, please check it!' % error_num)
+			msgb.showerror('error!', 'you have %s data insert into s_data failed, please check it!' % count1)
 
 	# insert error data Button 回调函数，若前面插入数据出现问题，在解决问题后执行此操作，将会插入前面插入失败的数据
 	# 正常情况下不需要点击此按钮
