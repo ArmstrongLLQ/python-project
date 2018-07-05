@@ -278,7 +278,7 @@ def updateData(excel_file, table_list, field_to_field_dict, filepath_in_computer
 	else:
 		index_filename = 0
 	if field_to_field_dict['filesize'] != '':
-		index_filesize, nrows, ncols = getIndexByTitle(excel_data, title=field_to_field_dict['  filesize'])
+		index_filesize, nrows, ncols = getIndexByTitle(excel_data, title=field_to_field_dict['filesize'])
 	else:
 		index_filesize = 0
 	if field_to_field_dict['pubdate'] != '':
