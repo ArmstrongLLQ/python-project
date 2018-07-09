@@ -547,7 +547,7 @@ def insertErrorData(data_list, report_name):
 				            data['temp01'], data['temp02'], data['temp03'], data['temp04'], data['temp05'],
 				            data['temp06'],
 				            data['temp07'], data['temp08'], data['temp09'], data['corporateauthor'])
-				# print(sql)
+				# print(sql)git pus
 				try:
 					cursor.execute(sql, my_value)
 					db.commit()

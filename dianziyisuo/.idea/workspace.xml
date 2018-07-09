@@ -12,8 +12,8 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/dianziyisuo$eisc_data_process__1_.coverage" NAME="eisc_data_process (1) Coverage Results" MODIFIED="1528943247276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/eisc/eisc_data_window -628" />
     <SUITE FILE_PATH="coverage/dianziyisuo$eisc_data_process.coverage" NAME="eisc_data_process Coverage Results" MODIFIED="1530777026212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/eisc/eisc_data_window" />
-    <SUITE FILE_PATH="coverage/dianziyisuo$eisc_data_process_628.coverage" NAME="eisc_data_process-628 Coverage Results" MODIFIED="1530843072793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/eisc/eisc_data_window -628" />
-    <SUITE FILE_PATH="coverage/dianziyisuo$time_test.coverage" NAME="time_test Coverage Results" MODIFIED="1530778793959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/eisc/eisc_data_window -628" />
+    <SUITE FILE_PATH="coverage/dianziyisuo$eisc_data_process_628.coverage" NAME="eisc_data_process-628 Coverage Results" MODIFIED="1531104847334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/eisc/eisc_data_window -628" />
+    <SUITE FILE_PATH="coverage/dianziyisuo$time_test.coverage" NAME="time_test Coverage Results" MODIFIED="1531104817241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/eisc/eisc_data_window -628" />
     <SUITE FILE_PATH="coverage/dianziyisuo$20180525_zhiku_spider.coverage" NAME="20180525_zhiku_spider Coverage Results" MODIFIED="1529460585888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/doaj" />
     <SUITE FILE_PATH="coverage/dianziyisuo$11111.coverage" NAME="11111 Coverage Results" MODIFIED="1530512407722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/eisc" />
     <SUITE FILE_PATH="coverage/dianziyisuo$123.coverage" NAME="123 Coverage Results" MODIFIED="1529980110400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/eisc" />
@@ -26,8 +26,8 @@
       <file leaf-file-name="eisc_data_process-628.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eisc/eisc_data_window -628/eisc_data_process-628.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="398" column="38" lean-forward="false" selection-start-line="398" selection-start-column="21" selection-end-line="398" selection-end-column="38" />
+            <state relative-caret-position="210">
+              <caret line="404" column="20" lean-forward="false" selection-start-line="404" selection-start-column="20" selection-end-line="404" selection-end-column="20" />
               <folding>
                 <element signature="e#87#108#0" expanded="true" />
               </folding>
@@ -35,25 +35,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BASE.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eisc/eisc_data_window -628/BASE.py">
+      <file leaf-file-name="data_utils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../deeplearning.ai.assignment/sequence model/assignment5-1/jazz-improvisation-with-lstm/data_utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="555" column="28" lean-forward="false" selection-start-line="544" selection-start-column="26" selection-end-line="551" selection-end-column="48" />
+            <state relative-caret-position="120">
+              <caret line="4" column="37" lean-forward="false" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
               <folding>
-                <marker date="1530670475720" expanded="true" signature="6089:6120" ph="select sourc... s_source" />
-                <marker date="1530670475720" expanded="true" signature="6444:6491" ph="select s_id s_source" />
-                <marker date="1530670475720" expanded="true" signature="8359:8520" ph="insert into s_source... " />
+                <element signature="e#0#25#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dinosaurus+Island+--+Character+level+language+model+final+chai.ipynb" pinned="false" current-in-tab="true">
-        <entry file="file://D:/BaiduNetdiskDownload/deeplearning.ai-2/course5/assignment5-1/dinosaur-island-character-level-language-model/Dinosaurus+Island+--+Character+level+language+model+final+chai.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="13" />
+      <file leaf-file-name="preprocess.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../deeplearning.ai.assignment/sequence model/assignment5-1/jazz-improvisation-with-lstm/preprocess.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BASE.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eisc/eisc_data_window -628/BASE.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+              <folding>
+                <marker date="1530868692406" expanded="true" signature="6089:6120" ph="select sourc... s_source" />
+                <marker date="1530868692406" expanded="true" signature="6444:6491" ph="select s_id s_source" />
+                <marker date="1530868692406" expanded="true" signature="8359:8520" ph="insert into s_source... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,8 +74,8 @@
       <file leaf-file-name="time_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eisc/eisc_data_window -628/time_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="240">
+              <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -110,9 +123,9 @@
         <option value="$PROJECT_DIR$/eisc/123.py" />
         <option value="$PROJECT_DIR$/eisc/11111.py" />
         <option value="$PROJECT_DIR$/eisc/eisc_data_window -628/eisc_data_process-628.py" />
+        <option value="$PROJECT_DIR$/eisc/eisc_data_window/BASE.py" />
         <option value="$PROJECT_DIR$/eisc/eisc_data_window -628/BASE.py" />
         <option value="$PROJECT_DIR$/eisc/eisc_data_window -628/time_test.py" />
-        <option value="$PROJECT_DIR$/eisc/eisc_data_window/BASE.py" />
       </list>
     </option>
   </component>
@@ -123,10 +136,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1911" />
+    <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="1938" />
-    <option name="height" value="1098" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -152,7 +165,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dianziyisuo" />
+              <option name="myItemId" value="deeplearning.ai.assignment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sequence model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -162,29 +179,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dianziyisuo" />
+              <option name="myItemId" value="deeplearning.ai.assignment" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="eisc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dianziyisuo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dianziyisuo" />
+              <option name="myItemId" value="sequence model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="eisc" />
+              <option name="myItemId" value="assignment5-1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="eisc_data_window -628" />
+              <option name="myItemId" value="jazz-improvisation-with-lstm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -194,15 +201,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dianziyisuo" />
+              <option name="myItemId" value="deeplearning.ai.assignment" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="eisc" />
+              <option name="myItemId" value="sequence model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="eisc_data_window" />
+              <option name="myItemId" value="assignment5-1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -212,11 +219,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dianziyisuo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data_split" />
+              <option name="myItemId" value="deeplearning.ai.assignment" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -226,9 +229,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.project" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../deeplearning.ai.assignment" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -487,6 +490,22 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="dianziyisuo" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.eisc_data_process-628" />
       <item index="1" class="java.lang.String" itemvalue="Python.BASE" />
@@ -521,7 +540,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1911" y="-9" width="1938" height="1098" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -530,10 +549,10 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3112426" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16465423" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16454229" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24946004" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24946004" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -567,28 +586,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/eisc/file_exist_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="37" column="26" lean-forward="true" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eisc/123.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eisc/eisc_data_window -628/BASE.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7050">
           <caret line="240" column="11" lean-forward="true" selection-start-line="240" selection-start-column="11" selection-end-line="240" selection-end-column="11" />
           <folding>
-            <marker date="1530670475720" expanded="true" signature="6089:6120" ph="select sourc... s_source" />
-            <marker date="1530670475720" expanded="true" signature="6444:6491" ph="select s_id s_source" />
-            <marker date="1530670475720" expanded="true" signature="8359:8520" ph="insert into s_source... " />
+            <marker date="1530868692406" expanded="true" signature="6089:6120" ph="select sourc... s_source" />
+            <marker date="1530868692406" expanded="true" signature="6444:6491" ph="select s_id s_source" />
+            <marker date="1530868692406" expanded="true" signature="8359:8520" ph="insert into s_source... " />
           </folding>
         </state>
       </provider>
@@ -615,9 +620,9 @@
         <state relative-caret-position="14340">
           <caret line="478" column="0" lean-forward="true" selection-start-line="478" selection-start-column="0" selection-end-line="478" selection-end-column="0" />
           <folding>
-            <marker date="1530670475720" expanded="true" signature="6089:6120" ph="select sourc... s_source" />
-            <marker date="1530670475720" expanded="true" signature="6444:6491" ph="select s_id s_source" />
-            <marker date="1530670475720" expanded="true" signature="8359:8520" ph="insert into s_source... " />
+            <marker date="1530868692406" expanded="true" signature="6089:6120" ph="select sourc... s_source" />
+            <marker date="1530868692406" expanded="true" signature="6444:6491" ph="select s_id s_source" />
+            <marker date="1530868692406" expanded="true" signature="8359:8520" ph="insert into s_source... " />
           </folding>
         </state>
       </provider>
@@ -671,9 +676,9 @@
         <state relative-caret-position="9630">
           <caret line="321" column="20" lean-forward="true" selection-start-line="321" selection-start-column="20" selection-end-line="321" selection-end-column="20" />
           <folding>
-            <marker date="1530670475720" expanded="true" signature="6089:6120" ph="select sourc... s_source" />
-            <marker date="1530670475720" expanded="true" signature="6444:6491" ph="select s_id s_source" />
-            <marker date="1530670475720" expanded="true" signature="8359:8520" ph="insert into s_source... " />
+            <marker date="1530868692406" expanded="true" signature="6089:6120" ph="select sourc... s_source" />
+            <marker date="1530868692406" expanded="true" signature="6444:6491" ph="select s_id s_source" />
+            <marker date="1530868692406" expanded="true" signature="8359:8520" ph="insert into s_source... " />
           </folding>
         </state>
       </provider>
@@ -710,9 +715,9 @@
         <state relative-caret-position="10080">
           <caret line="336" column="51" lean-forward="false" selection-start-line="336" selection-start-column="31" selection-end-line="336" selection-end-column="51" />
           <folding>
-            <marker date="1530670475720" expanded="true" signature="6089:6120" ph="select sourc... s_source" />
-            <marker date="1530670475720" expanded="true" signature="6444:6491" ph="select s_id s_source" />
-            <marker date="1530670475720" expanded="true" signature="8359:8520" ph="insert into s_source... " />
+            <marker date="1530868692406" expanded="true" signature="6089:6120" ph="select sourc... s_source" />
+            <marker date="1530868692406" expanded="true" signature="6444:6491" ph="select s_id s_source" />
+            <marker date="1530868692406" expanded="true" signature="8359:8520" ph="insert into s_source... " />
           </folding>
         </state>
       </provider>
@@ -749,9 +754,9 @@
         <state relative-caret-position="9630">
           <caret line="321" column="77" lean-forward="false" selection-start-line="321" selection-start-column="68" selection-end-line="321" selection-end-column="77" />
           <folding>
-            <marker date="1530670475720" expanded="true" signature="6089:6120" ph="select sourc... s_source" />
-            <marker date="1530670475720" expanded="true" signature="6444:6491" ph="select s_id s_source" />
-            <marker date="1530670475720" expanded="true" signature="8359:8520" ph="insert into s_source... " />
+            <marker date="1530868692406" expanded="true" signature="6089:6120" ph="select sourc... s_source" />
+            <marker date="1530868692406" expanded="true" signature="6444:6491" ph="select s_id s_source" />
+            <marker date="1530868692406" expanded="true" signature="8359:8520" ph="insert into s_source... " />
           </folding>
         </state>
       </provider>
@@ -781,9 +786,9 @@
         <state relative-caret-position="6660">
           <caret line="222" column="0" lean-forward="false" selection-start-line="222" selection-start-column="0" selection-end-line="222" selection-end-column="0" />
           <folding>
-            <marker date="1530670475720" expanded="true" signature="6089:6120" ph="select sourc... s_source" />
-            <marker date="1530670475720" expanded="true" signature="6444:6491" ph="select s_id s_source" />
-            <marker date="1530670475720" expanded="true" signature="8359:8520" ph="insert into s_source... " />
+            <marker date="1530868692406" expanded="true" signature="6089:6120" ph="select sourc... s_source" />
+            <marker date="1530868692406" expanded="true" signature="6444:6491" ph="select s_id s_source" />
+            <marker date="1530868692406" expanded="true" signature="8359:8520" ph="insert into s_source... " />
           </folding>
         </state>
       </provider>
@@ -813,9 +818,9 @@
         <state relative-caret-position="9900">
           <caret line="330" column="24" lean-forward="true" selection-start-line="330" selection-start-column="24" selection-end-line="330" selection-end-column="24" />
           <folding>
-            <marker date="1530670475720" expanded="true" signature="6089:6120" ph="select sourc... s_source" />
-            <marker date="1530670475720" expanded="true" signature="6444:6491" ph="select s_id s_source" />
-            <marker date="1530670475720" expanded="true" signature="8359:8520" ph="insert into s_source... " />
+            <marker date="1530868692406" expanded="true" signature="6089:6120" ph="select sourc... s_source" />
+            <marker date="1530868692406" expanded="true" signature="6444:6491" ph="select s_id s_source" />
+            <marker date="1530868692406" expanded="true" signature="8359:8520" ph="insert into s_source... " />
           </folding>
         </state>
       </provider>
@@ -898,13 +903,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/BaiduNetdiskDownload/deeplearning.ai/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/BaiduNetdiskDownload/deeplearning.ai/README.md" />
     <entry file="file://$PROJECT_DIR$/../../../../Project_local/python/deep-learning-models-master/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -950,24 +949,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eisc/eisc_data_window -628/time_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eisc/eisc_data_window -628/eisc_data_process-628.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="398" column="38" lean-forward="false" selection-start-line="398" selection-start-column="21" selection-end-line="398" selection-end-column="38" />
-          <folding>
-            <element signature="e#87#108#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/BaiduNetdiskDownload/deeplearning.ai-2/course5/assignment5-1/building-rnn-step-by-step/Building+a+Recurrent+Neural+Network+-+Step+by+Step+-+v3-starter.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -982,22 +963,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eisc/eisc_data_window -628/BASE.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="555" column="28" lean-forward="false" selection-start-line="544" selection-start-column="26" selection-end-line="551" selection-end-column="48" />
-          <folding>
-            <marker date="1530670475720" expanded="true" signature="6089:6120" ph="select sourc... s_source" />
-            <marker date="1530670475720" expanded="true" signature="6444:6491" ph="select s_id s_source" />
-            <marker date="1530670475720" expanded="true" signature="8359:8520" ph="insert into s_source... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/BaiduNetdiskDownload/deeplearning.ai-2/course5/assignment5-1/dinosaur-island-character-level-language-model/Dinosaurus+Island+--+Character+level+language+model+final+chai.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eisc/eisc_data_window -628/BASE.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding>
+            <marker date="1530868692406" expanded="true" signature="6089:6120" ph="select sourc... s_source" />
+            <marker date="1530868692406" expanded="true" signature="6444:6491" ph="select s_id s_source" />
+            <marker date="1530868692406" expanded="true" signature="8359:8520" ph="insert into s_source... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eisc/eisc_data_window -628/time_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eisc/eisc_data_window -628/eisc_data_process-628.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="404" column="20" lean-forward="false" selection-start-line="404" selection-start-column="20" selection-end-line="404" selection-end-column="20" />
+          <folding>
+            <element signature="e#87#108#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../deeplearning.ai.assignment/sequence model/assignment5-1/jazz-improvisation-with-lstm/data_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="37" lean-forward="false" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../deeplearning.ai.assignment/sequence model/assignment5-1/jazz-improvisation-with-lstm/preprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>

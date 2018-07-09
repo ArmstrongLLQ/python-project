@@ -1,7 +1,7 @@
 from BASE import transTime
 
 def main():
-	time_list = ['2017/06/15', '20160202-20160203', '23 5月 2018']
+	time_list = ['2017/06/15', '20160202-20160203', '23 5月 2018', '2-3 Nov. 2017']
 	for t in time_list:
 		print(transTime(t))
 
